@@ -1,1 +1,126 @@
-<h1>hemlo!</h>
+<style>
+    .project-container {
+      max-width: none !important;
+    }
+    
+    .hero-section {
+      background-color: #fff;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      text-align: center;
+    }
+    
+    .hero-wrapper {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      min-height: 1024px;
+      width: 100%;
+      overflow: hidden;
+    }
+    
+    .background-image {
+      position: absolute;
+      inset: 0;
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+    
+    .content-wrapper {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      background-blend-mode: soft_light;
+      min-height: 1024px;
+      width: 100%;
+      overflow: hidden;
+      align-items: center;
+      padding: 253px 80px 448px;
+    }
+    
+    .logo-container {
+      position: relative;
+      display: flex;
+      margin-bottom: -90px;
+      width: 100%;
+      max-width: 1024px;
+      flex-direction: column;
+    }
+    
+    .logo {
+      aspect-ratio: 1;
+      object-fit: contain;
+      object-position: center;
+      width: 176px;
+      align-self: center;
+      max-width: 100%;
+    }
+    
+    .text-content {
+      display: flex;
+      margin-top: 19px;
+      flex-direction: column;
+      align-items: center;
+      justify-content: start;
+    }
+    
+    .project-title {
+      color: #fff;
+      letter-spacing: -2.06px;
+      font: 700 103px/1 'Space Mono', sans-serif;
+    }
+    
+    .project-status {
+      color: #fff;
+      margin-top: 9px;
+      font: 400 20px 'Inter', sans-serif;
+    }
+    
+    @media (max-width: 991px) {
+      .hero-wrapper {
+        max-width: 100%;
+      }
+      
+      .content-wrapper {
+        max-width: 100%;
+        padding: 100px 20px;
+      }
+      
+      .logo-container {
+        max-width: 100%;
+        margin-bottom: 10px;
+      }
+      
+      .text-content {
+        max-width: 100%;
+      }
+      
+      .project-title {
+        max-width: 100%;
+        font-size: 40px;
+      }
+      
+      .project-status {
+        max-width: 100%;
+      }
+    }
+    </style>
+    
+    <section class="hero-section">
+      <div class="hero-wrapper">
+        <img class="background-image" src="https://cdn.builder.io/api/v1/image/assets/TEMP/c09b7c76236d742844f6950c647fb7b9eaa7bce7719d3b20a16865b158d24160?placeholderIfAbsent=true&apiKey=92d163b55a7a4ff4bfae1314e0086732" alt="" loading="lazy" />
+        <div class="content-wrapper">
+          <img class="background-image" src="https://cdn.builder.io/api/v1/image/assets/TEMP/53ca1b5c961bf37a7cb0e92b2c3bd55a426fcda3edd5480b22d90b03eadc4e6b?placeholderIfAbsent=true&apiKey=92d163b55a7a4ff4bfae1314e0086732" alt="" loading="lazy" />
+          <div class="logo-container">
+            <img class="logo" src="https://cdn.builder.io/api/v1/image/assets/TEMP/1e32323abae43ecd928997ea38361cb12d03dffb2f1cd4dd925a04e3987f049c?placeholderIfAbsent=true&apiKey=92d163b55a7a4ff4bfae1314e0086732" alt="Lucavi Project Logo" loading="lazy" />
+            <div class="text-content">
+              <h1 class="project-title">PROJECT:\\lUCAVI</h1>
+              <p class="project-status">COMING SOON.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
