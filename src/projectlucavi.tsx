@@ -2,7 +2,7 @@ import React from 'react';
 import './projectlucavi.css';
 
 const BackgroundImage = ({ children }: { children: React.ReactNode }) => (
-  <div className="backgroundImage" style={{ backgroundImage: 'url(https://raw.githubusercontent.com/aventurescence/ProjectLucavi/refs/heads/dev/assets/Blob1.png)' }}>
+  <div className="backgroundImage" style={{ backgroundImage: 'url(https://github.com/aventurescence/ProjectLucavi/blob/dev/assets/Blob1.png?raw=true)' }}>
     {children}
   </div>
 );
