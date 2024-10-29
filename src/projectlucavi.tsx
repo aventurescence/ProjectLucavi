@@ -23,7 +23,6 @@ const VectorImage = () => (
   <img className="vectorImage" src="https://raw.githubusercontent.com/aventurescence/ProjectLucavi/ef9089690e5570687d5c07a78fc1103fd19101d8/assets/comingsoon.svg" alt="Coming Soon" />
 );
 
-
 const ProjectLucavi = () => {
   return (
     <div className="container">
