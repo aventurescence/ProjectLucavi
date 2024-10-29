@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+}
+
+.backgroundImage {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.noiseImage {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.vectorImage {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-position: center;
+}
+
+.textLarge {
+  font-size: 48px;
+  color: #fff;
+}
+
+.textLUCAVI {
+  font-size: 72px;
+  color: #fff;
+}
+
+.textSmall {
+  font-size: 24px;
+  color: #fff;
+}
+
+.textSignature {
+  font-size: 18px;
+  color: #fff;
+}
