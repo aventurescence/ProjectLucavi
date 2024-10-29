@@ -1,7 +1,7 @@
 {
   "name": "project-lucavi",
   "version": "0.1.0",
-  "homepage": "httpps://aventurescence.github.io/ProjectLucavi",
+  "homepage": "https://aventurescence.github.io/ProjectLucavi",
   "private": true,
   "dependencies": {
     "react": "^17.0.1",
