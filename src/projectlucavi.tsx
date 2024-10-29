@@ -2,26 +2,17 @@ import React from 'react';
 import './projectlucavi.css';
 
 const BackgroundImage = ({ children }: { children: React.ReactNode }) => (
-  <div className="backgroundImage" style={{ backgroundImage: 'url(V:/GitHub/ProjectLucavi/assets/Blob1.png)' }}>
+  <div className="backgroundImage" style={{ backgroundImage: 'url(https://raw.githubusercontent.com/aventurescence/ProjectLucavi/refs/heads/dev/assets/Blob1.png)' }}>
     {children}
   </div>
 );
 
 const NoiseImage = () => (
-  <div className="noiseImage" style={{ backgroundImage: 'url(V:/GitHub/ProjectLucavi/assets/Noise-Animation.png)' }} />
+  <div className="noiseImage" style={{ backgroundImage: 'url(https://raw.githubusercontent.com/aventurescence/ProjectLucavi/refs/heads/dev/assets/Noise-Animation.png)' }} />
 );
 
 const VectorImage = () => (
-  <div className="vectorImage" style={{ backgroundImage: 'url(V:/GitHub/ProjectLucavi/assets/comingsoon.svg)' }} />
-);
-
-const TextOverlay = () => (
-  <>
-    <h1 className="textLarge">project:\\</h1>
-    <h2 className="textLUCAVI">LUCAVI</h2>
-    <p className="textSmall">coming soon.</p>
-    <p className="textSignature">@aventurescence</p>
-  </>
+  <img className="vectorImage" src="https://raw.githubusercontent.com/aventurescence/ProjectLucavi/ef9089690e5570687d5c07a78fc1103fd19101d8/assets/comingsoon.svg" alt="Coming Soon" />
 );
 
 const ProjectLucavi = () => {
@@ -30,7 +21,6 @@ const ProjectLucavi = () => {
       <BackgroundImage>
         <NoiseImage />
         <VectorImage />
-        <TextOverlay />
       </BackgroundImage>
     </div>
   );

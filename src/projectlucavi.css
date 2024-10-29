@@ -28,15 +28,18 @@ body {
   height: 100%;
   background-size: cover;
   background-position: center;
+  mix-blend-mode: soft-light;
 }
 
 .vectorImage {
   position: absolute;
-  bottom: 0;
-  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30%;
   height: auto;
-  background-size: cover;
-  background-position: center;
+  fill: #ffffff;
+  mix-blend-mode: difference ;
 }
 
 .textLarge {
