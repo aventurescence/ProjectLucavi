@@ -1,15 +1,13 @@
 {
   "files": {
-    "main.css": "/ProjectLucavi/static/css/main.0addaaf0.chunk.css",
-    "main.js": "/ProjectLucavi/static/js/main.da453fbe.chunk.js",
-    "main.js.map": "/ProjectLucavi/static/js/main.da453fbe.chunk.js.map",
-    "runtime~main.js": "/ProjectLucavi/static/js/runtime~main.6a1db18c.js",
-    "runtime~main.js.map": "/ProjectLucavi/static/js/runtime~main.6a1db18c.js.map",
-    "static/js/2.67af74b8.chunk.js": "/ProjectLucavi/static/js/2.67af74b8.chunk.js",
-    "static/js/2.67af74b8.chunk.js.map": "/ProjectLucavi/static/js/2.67af74b8.chunk.js.map",
+    "main.css": "/ProjectLucavi/static/css/main.7e082b23.css",
+    "main.js": "/ProjectLucavi/static/js/main.9b56b6c9.js",
     "index.html": "/ProjectLucavi/index.html",
-    "precache-manifest.3743b96355da1d0390a15996136accb3.js": "/ProjectLucavi/precache-manifest.3743b96355da1d0390a15996136accb3.js",
-    "service-worker.js": "/ProjectLucavi/service-worker.js",
-    "static/css/main.0addaaf0.chunk.css.map": "/ProjectLucavi/static/css/main.0addaaf0.chunk.css.map"
-  }
+    "main.7e082b23.css.map": "/ProjectLucavi/static/css/main.7e082b23.css.map",
+    "main.9b56b6c9.js.map": "/ProjectLucavi/static/js/main.9b56b6c9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7e082b23.css",
+    "static/js/main.9b56b6c9.js"
+  ]
 }
