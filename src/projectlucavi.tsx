@@ -1,10 +1,18 @@
-import React from 'react';
+import React, {} from 'react';
 import './projectlucavi.css';
 
 const BackgroundImage = ({ children }: { children: React.ReactNode }) => (
-  <div className="backgroundImage" style={{ backgroundImage: 'url(https://github.com/aventurescence/ProjectLucavi/blob/dev/assets/Blob1.png?raw=true)' }}>
+  <div className="backgroundImage">
     {children}
   </div>
+);
+
+const Ellipse = () => (
+  <>
+    <div className="ellipse1" />
+    <div className="ellipse2" />
+    <div className="ellipse3" />
+  </>
 );
 
 const NoiseImage = () => (
@@ -15,10 +23,12 @@ const VectorImage = () => (
   <img className="vectorImage" src="https://raw.githubusercontent.com/aventurescence/ProjectLucavi/ef9089690e5570687d5c07a78fc1103fd19101d8/assets/comingsoon.svg" alt="Coming Soon" />
 );
 
+
 const ProjectLucavi = () => {
   return (
     <div className="container">
       <BackgroundImage>
+        <Ellipse />
         <NoiseImage />
         <VectorImage />
       </BackgroundImage>
