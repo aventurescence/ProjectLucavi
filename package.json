@@ -1,11 +1,12 @@
 {
   "name": "project-lucavi",
   "version": "0.1.0",
+  "homepage": "https://aventurescence.github.io/ProjectLucavi",
   "private": true,
   "dependencies": {
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-scripts": "4.0.3",
+    "react-scripts": "^3.0.1",
     "typescript": "^4.1.2"
   },
   "devDependencies": {
@@ -14,8 +15,8 @@
     "gh-pages": "^6.2.0"
   },
   "scripts": {
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build --repo https://github.com/aventurescence/ProjectLucavi.git -b Live",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

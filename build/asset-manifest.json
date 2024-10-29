@@ -1,20 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.1c24d79d.chunk.css",
-    "main.js": "/static/js/main.9d1063a3.chunk.js",
-    "main.js.map": "/static/js/main.9d1063a3.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.6fe0fc29.js",
-    "runtime-main.js.map": "/static/js/runtime-main.6fe0fc29.js.map",
-    "static/js/2.e777a2a4.chunk.js": "/static/js/2.e777a2a4.chunk.js",
-    "static/js/2.e777a2a4.chunk.js.map": "/static/js/2.e777a2a4.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.1c24d79d.chunk.css.map": "/static/css/main.1c24d79d.chunk.css.map",
-    "static/js/2.e777a2a4.chunk.js.LICENSE.txt": "/static/js/2.e777a2a4.chunk.js.LICENSE.txt"
-  },
-  "entrypoints": [
-    "static/js/runtime-main.6fe0fc29.js",
-    "static/js/2.e777a2a4.chunk.js",
-    "static/css/main.1c24d79d.chunk.css",
-    "static/js/main.9d1063a3.chunk.js"
-  ]
+    "main.css": "/ProjectLucavi/static/css/main.0addaaf0.chunk.css",
+    "main.js": "/ProjectLucavi/static/js/main.da453fbe.chunk.js",
+    "main.js.map": "/ProjectLucavi/static/js/main.da453fbe.chunk.js.map",
+    "runtime~main.js": "/ProjectLucavi/static/js/runtime~main.6a1db18c.js",
+    "runtime~main.js.map": "/ProjectLucavi/static/js/runtime~main.6a1db18c.js.map",
+    "static/js/2.67af74b8.chunk.js": "/ProjectLucavi/static/js/2.67af74b8.chunk.js",
+    "static/js/2.67af74b8.chunk.js.map": "/ProjectLucavi/static/js/2.67af74b8.chunk.js.map",
+    "index.html": "/ProjectLucavi/index.html",
+    "precache-manifest.3743b96355da1d0390a15996136accb3.js": "/ProjectLucavi/precache-manifest.3743b96355da1d0390a15996136accb3.js",
+    "service-worker.js": "/ProjectLucavi/service-worker.js",
+    "static/css/main.0addaaf0.chunk.css.map": "/ProjectLucavi/static/css/main.0addaaf0.chunk.css.map"
+  }
 }
