@@ -37,13 +37,16 @@ body {
 
 @keyframes noiseImageAnimation {
     0% {
-      background-image: url('https://github.com/aventurescence/ProjectLucavi/blob/dev/assets/Blob1.png?raw=true');
+      background-image: url('https://github.com/aventurescence/ProjectLucavi/blob/dev/assets/Noise-Animation.png?raw=true');
+    }
+    25% {
+      background-image: url('https://github.com/aventurescence/ProjectLucavi/blob/dev/assets/Noise-Animation2.png?raw=true');
     }
     50% {
-      background-image: url('https://github.com/aventurescence/ProjectLucavi/blob/dev/assets/Blob2.png?raw=true');
+      background-image: url('https://github.com/aventurescence/ProjectLucavi/blob/dev/assets/Noise-Animation3.png?raw=true');
     }
     100% {
-      background-image: url('https://github.com/aventurescence/ProjectLucavi/blob/dev/assets/Blob3.png?raw=true');
+        background-image: url('https://github.com/aventurescence/ProjectLucavi/blob/dev/assets/Noise-Animation4.png?raw=true');
     }
   }
 
@@ -54,6 +57,7 @@ body {
   background-size: cover;
   background-position: center;
   mix-blend-mode: soft-light;
+  animation: noiseImageAnimation 10s infinite alternate;
 }
 
 .vectorImage {
