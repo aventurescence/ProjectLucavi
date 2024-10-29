@@ -14,7 +14,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build --repo https://github.com/aventurescence/ProjectLucavi.git -b live",
+    "deploy": "gh-pages -d build --repo https://github.com/aventurescence/ProjectLucavi.git -b Live",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
